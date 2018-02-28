@@ -1,3 +1,4 @@
-first string 01
-second string 02
-third string 03
+<<<<<<< HEAD
+first string 01-001
+second string 02-002
+third string 03-003
