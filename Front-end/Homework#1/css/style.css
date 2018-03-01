@@ -40,10 +40,19 @@ body {
 	max-width: 50%;
 	margin-left: 1.5625rem;	
 }
+.wrapper {
+
+}
 .registration {
+	text-align: right;
+	clear: both;
 	display: inline-block;
 	background-color: #01847E;
 }
+label {
+	float: left;
+}
+
 input{
 	outline: none;
 	width: 229px;
@@ -56,9 +65,10 @@ input:hover{
 	color: white;
 }
 input[type=submit]{
-	margin-left: 37%;
 	margin-bottom: 20px;
 	padding: 5px;
+	width: 233px;
+  margin-right: 5px;
 	
 }
 #about:hover {
@@ -66,4 +76,8 @@ input[type=submit]{
 	border-radius: 10px 10px 10px 10px;
 	background-color: #435D51;
 	color: white;
+}
+textarea {
+	 width: 227px;
+   margin-right: 5px;
 }
